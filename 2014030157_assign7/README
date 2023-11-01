@@ -1,0 +1,21 @@
+#README for assignment 7, course HPY414.
+
+
+Code in Bash programming language that utilizes a simple adblock mechanism using iptables.
+
+Folder contains:
+
+	-adblock.sh
+  "Contains the Bash code used for utilizing the Tool.
+  To display tool usage use: $ ./adblock.sh -help "
+
+Answer to question posed in assignment:
+ Most ads have disappeared, although there are some that persist. The reasons for this are:
+  - That the Rules that we have created only take into amount the
+  domains that we have given which are definitely not all there is for ads.
+  - The fact that the ips that the host command returned, which are used to form the iptables Rules,
+  are the ones for that given time(not absolute).
+
+There are comments on the code for further code explanation where needed.
+- Chalimas Theodoros - 2014030157
+	<thodorischa@gmail.com>
